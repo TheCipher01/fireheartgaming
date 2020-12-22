@@ -23,7 +23,7 @@ public class Fireheart {
      */
     public static void main(String[] args) throws LoginException {
         JDA jda;
-        jda = JDABuilder.createDefault("Nzg5NjM4NDc5OTUxODIyODU5.X90-JA.2fmyVDrWTstksHZNB9N6t7lt_4c")
+        jda = JDABuilder.createDefault("")
                 //.setActivity(Activity.watching("Fireheart Gaming"))
                 .setActivity(Activity.playing("Being developed"))
                 .setStatus(OnlineStatus.DO_NOT_DISTURB)
